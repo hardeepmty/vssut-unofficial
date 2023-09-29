@@ -1,0 +1,295 @@
+ body{
+  background-color: black;
+  overflow-x: hidden;
+} 
+.outer{
+  padding: 2% ;
+  border-color: black;
+  border-radius: 100px;
+}
+
+.navbar{
+  background-color: black;
+  box-shadow: 0 2px 4px 0 rgba(231, 226, 226, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.form-check{
+  color: gray;
+}
+
+#flexSwitchCheckDefault{
+  color: black;
+}
+
+.scrollbar{
+  width:20%;
+}
+
+.content{
+  margin-top: 7%;
+  margin-left: 22%;
+  color: white;
+}
+
+.view{
+  display: flex;
+}
+.scrollbar{
+  padding-left: 1%;
+  line-height: 250%;
+  background-color: rgba(22, 30, 40, 0.581);
+  color: white;
+  position: fixed;
+  top: 10%;
+  left: 0;
+  width: 20%;
+}
+.explore{
+  margin-top: 2%;
+}
+.vssut{
+  width: 100%;
+  padding: 2%;
+}
+.logo{
+  padding: 2%;
+}
+
+.majhi{
+  width: 60%;
+}
+
+.words{
+  width: 50%;
+}
+
+.apply{
+  margin-left: 15%;
+  padding: 2%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+}
+
+.applyBtn{
+  padding: 2%;
+  border-radius: 10%;
+  border-style: none;
+  z-index: -1;
+}
+.applyBtn a{
+  color: black;
+  text-decoration: none;
+}
+
+.ground{
+  margin-top: 3%;
+  padding: 2%;
+  width: 100%;
+}
+.alumniNet{
+  margin-top: 7%;
+  padding: 2%;
+  display: flex;
+}
+.features{
+  margin-top: 7%;
+  display: flex;
+  padding: 2%;
+  gap: 1%;
+}
+
+.card1{
+  padding: 2%;
+  background-color: rgb(37, 37, 39);
+}
+.card1:hover{
+  transition: 0.5s ease;
+  transform: translateY(-10px);
+}
+.card2{
+  padding: 2%;
+  background-color: rgba(22, 30, 40, 0.581);
+}
+.card2:hover{
+  transition: 0.3s ease;
+  transform: translateY(-10px);
+}
+.tag{
+  margin-top: 7%;
+  margin-left: 20%;
+  align-items: center;
+  justify-content: center;
+  padding: 20%;
+  display: flex;
+  width: 50%;
+  background-image: url(bck.jpg);
+}
+.omap{
+  padding: 2%;
+}
+
+.page{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 1%;
+  margin-top: 7%;
+}
+.vssutlogo{
+  width: 40%;
+}
+.card{
+  padding: 2%;
+  color: white;
+  background-color: rgba(22, 30, 40, 0.581);
+}
+
+.message, .text{
+  color: red;
+}
+
+input{
+  padding: 2%;
+  width: 60%;
+}
+button{
+  opacity: 80%;
+  padding: 2%;
+  border-radius: 3%;
+  color: rgb(246, 244, 243);
+  border: none;
+  background-color: rgb(89, 117, 192);
+}
+button:hover{
+  cursor: pointer;
+  opacity: 100%;
+}
+.alert{
+  color: rgb(140, 151, 151);
+}
+
+.login{
+  margin-top: 7%;
+  padding: 2%;
+  display: flex;
+}
+.students{
+  width: 60%;
+}
+.qs{
+  width: 60%;
+}
+.login2{
+  margin-top: 7%;
+  border-radius: 3%;
+}
+.link{
+  color: black;
+  text-decoration: none;
+}
+.mylink{
+  color: white;
+  text-decoration: none;
+}
+.mylink:hover{
+  padding: 3%;
+  background-color: rgb(34, 35, 64);
+  border-radius: 20%;
+  border-style: none;
+  opacity: 90%;
+}
+
+.marquee-container{
+  padding: 1%;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 90%;
+  background-color: rgba(22, 30, 40, 0.581);
+  box-shadow: 0 2px 4px 0 rgba(231, 226, 226, 0.5);
+}
+
+.marquee{
+  width: 100%;
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee span a{
+  color: white;
+  text-decoration: none;
+}
+
+.marquee span{
+  display: inline-block;
+  margin-right: 30px; 
+}
+
+@keyframes marquee {
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}
+.ignore{
+  color: black;
+}
+.vlogo{
+  width: 12%;
+}
+.placementList{
+  margin-top: 4%;
+  padding: 2%;
+}
+.placement{
+  width: 40%;
+}
+.placement:hover{
+  cursor: pointer;
+  width: 80%;
+  transition: 1s;
+}
+.img-mover{
+  margin-top: 4%;
+  padding: 2%;
+}
+
+
+/* App.css */
+.light-mode {
+  background-color: white; /* Set background color for light mode */
+}
+
+.me{
+  margin-left: 45%;
+  width: 40%;
+  border-radius: 100%;
+}
+
+.name{
+  margin-top: 3%;
+  margin-left: 47%;
+}
+.branch{
+  margin-top: 3%;
+  margin-left: 50%;
+}
+.table{
+  margin-left: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sz{
+  margin-left: 10%;
+}
